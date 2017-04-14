@@ -1,0 +1,479 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-family: "微软雅黑","苹方";
+	text-decoration: none;
+}
+nav{
+	width: 100%;
+	height: 44px;
+	background: black;
+	opacity: 0.9;
+}
+.ip{
+	width: 1000px;
+	height: 100%;
+	margin: auto;
+	background: #000000;
+}
+.ip .con{
+	width: 100%;
+	height: 100%;
+	text-align: justify;
+}
+.ip .con li{
+	display: inline-block;
+	line-height: 44px;
+	font-size: 16px;
+}
+.ip .con a{
+	color: #FFFFFF;
+}
+.ip .con:after{
+	width:100%;
+	content: "";
+	display:inline-block; 
+}
+.ip .con a:hover{
+	color: #B4A8A9;
+}
+
+
+.ip .content{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.ip .content li{
+	width: 32.7%;
+	height: 100%;
+	display: inline-block;
+	line-height: 44px;
+	font-size: 16px;
+	text-align: center;
+}
+.ip .content a{
+	color: #ffffff;
+}
+
+.ip .content a:hover{
+	color: #B4A8A9;
+}
+
+
+.ip .content li:nth-child(1){
+	text-align:left;
+}
+.ip .content li:nth-child(3){
+	text-align:right
+}
+
+
+
+.beij{
+	width: 100%;
+	background: #CC3341;
+}
+.banner{
+	width: 100%;
+	height: 556px;
+	background:url('../img/iphone7_large.png') no-repeat;
+	background-position:center 230px;
+	background-size: contain;
+}
+.bigbox{
+	width: 100%;
+	background: blue;
+	overflow: hidden;
+}
+.bigbox .box{
+	width: 25%;
+	height: 200px;
+	background: pink;
+	float: left;
+	box-sizing: border-box;
+	border: 2px solid #FFFFFF;
+	background-position:center center;
+	background-size: cover;
+}
+.bigbox .box:nth-child(1){
+	background-image: url('../img/w_large.jpg');
+	border-right: 0px;
+}
+.bigbox .box:nth-child(2){
+	background-image: url('../img/i_large.jpg');
+	border-right: 0px;
+}
+.bigbox .box:nth-child(3){
+	background-image: url('../img/a_large.jpg');
+	border-right: 0px;
+}
+.bigbox .box:nth-child(4){
+	background-image: url('../img/s_large.jpg');
+}
+@media screen and (max-width: 1055px) {
+	.ip{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0px 15px;
+		}
+	.banner{
+		width: 100%;
+		height:542px;
+		background: url('../img/iphone7_medium.png') no-repeat;
+		background-position:center 230px;
+		background-size: contain;
+	}
+	.bigbox .box:nth-child(1){
+	width: 50%;
+	background-image: url('../img/w_medium.jpg');
+	}
+	.bigbox .box:nth-child(2){
+	width: 50%;
+	background-image: url('../img/i_medium.jpg');
+	border-right: 2px solid #FFFFFF;
+	}
+	.bigbox .box:nth-child(3){
+	width: 50%;
+	background-image: url('../img/a_medium.jpg');
+	border-top: 0px;
+	}
+	.bigbox .box:nth-child(4){
+	width: 50%;
+	background-image: url('../img/s_medium.jpg');
+	border-top: 0px;
+}
+
+}
+@media screen and (max-width: 720px) {
+	.ip .con{
+		display: none;
+		}
+	.ip .content{
+		display: block;
+		}
+	.banner{
+		width: 100%;
+		background: url('../img/iphone7_small.png') no-repeat;
+		background-position:center 230px;
+		background-size: contain;
+	}
+	.bigbox .box:nth-child(1){
+	width: 100%;
+	background-image: url('../img/w_small.jpg');
+	border-right: 2px solid #FFFFFF;
+	border-bottom: 0px;
+	}
+	.bigbox .box:nth-child(2){
+	width: 100%;
+	background-image: url('../img/i_small.jpg');
+	border-bottom: 0px;
+	}
+	.bigbox .box:nth-child(3){
+	width: 100%;
+	background-image: url('../img/a_small.jpg');
+	border-right: 2px solid #FFFFFF;
+	border-bottom: 0px;
+	}
+	.bigbox .box:nth-child(4){
+	width: 100%;
+	background-image: url('../img/s_small.jpg');
+	}
+}
+
+
+
+/* 底部 */
+footer{
+	width: 100%;
+	background: #f2f2f2;
+}
+footer .kuai{
+	width: 980px;
+	background: #F2F2F2;
+	margin: auto;
+}
+.kuai .first{
+	width: 100%;
+	height: 50px;
+	background: #F2F2F2;
+	box-sizing: border-box;
+	border-bottom: 1px solid #D6D6D6;
+
+}
+.kuai i{
+	font-style: normal;
+	font-size: 9px;
+	color: #888888;
+	line-height: 50px;
+}
+
+.top{
+	width: 100%;
+}
+.kuai .one{
+	width: 100%;
+	height: 268px;
+}
+.kuai .one li{
+	width: 20%;
+	height: 268px;
+	background: #F2F2F2;
+	float: left;
+}
+.kuai .one li em{
+	font-style: normal;
+	color: #333333;
+	font-size: 9px;
+	margin-top:22px;
+	display: block;
+}
+
+.kuai .one li a{
+	display: block;
+	color: #555;
+	font-size: 9px;
+	margin-top:6px ;
+}
+.kuai .one li a:hover{
+	text-decoration: underline;
+}
+.kuai .gengduo{
+	width: 100%;
+	height: 40px;
+	background: #F2F2F2;
+	box-sizing: border-box;
+	border-bottom: 1px solid #D6D6D6;
+	line-height: 30px; 
+}
+.gengduo a{
+	font-size: 9px;
+	color: #0070C9; 
+}
+.gengduo a:hover{
+	text-decoration: underline;
+}
+.kuai .tow{
+	width: 100%;
+	height: 68px;
+	background:#F2F2F2;
+	position: relative; 
+}
+.tow .yuan{
+	width: 15px;
+	height: 15px;
+	background: #AEAEAE;
+	position: absolute;
+	right: 30px;
+	top: 10px;
+	border-radius: 50%;
+}
+.tow .xy{
+	width: 13px;
+	height: 13px;
+	background: #DE2910;
+	border-radius: 50%;
+	position: absolute;
+	top: 1px;
+	left: 1px;
+}
+.tow .china{
+	width: 25px;
+	height: 20px;
+	background: #F2F2F2;
+	position: absolute;
+	top: 5px;
+	right: 0px;
+}
+.tow .china .na{
+	font-size: 9px;
+	color: #555555;
+	line-height: 20px;
+}
+.tow .china .na:hover{
+	text-decoration: underline;
+}
+.kuai .tow li{
+	width: 100%;
+	height: 25px;
+	background: #F2F2F2;
+}
+.kuai .tow li b{
+	font-weight: normal;
+	font-size: 9px;
+	color: #888888;
+	line-height: 34px;
+
+}
+.kuai .tow .zc{
+	font-size: 9px;
+	color: #555555;
+	line-height: 33px;
+}
+.kuai .tow .m{
+	margin-left: 20px;
+}
+.kuai .tow .zc:hover{
+	text-decoration: underline;
+}
+.kuai .tow li span{
+	color: #D6D6D6;
+	margin-left: 10px;
+	margin-right: 8px;
+}
+
+.kuai .tow .itme{
+	font-size: 9px;
+	color: #888888;
+	margin-left: 5px;
+}
+.kuai .tow .itme:hover{
+	text-decoration: underline;
+}
+.bottom{
+	display: none;
+}
+
+
+
+
+/* 小屏的 */
+.bottom{
+	width: 100%;
+}
+
+
+.kuai .baikuai{
+	width: 100%;
+	height: 19px;
+	background: #f2f2f2;
+}
+.kuai .hang{
+	width: 100%;
+	height: 273px;
+	background:#f2f2f2;
+}
+.kuai .hang li{
+	width: 100%;
+	height: 39px;
+	background: #f2f2f2;
+	box-sizing: border-box;
+	border-bottom: 1px solid #D6D6D6;
+	position: relative;
+}
+.kuai .hang li a{
+	font-size: 10px;
+	line-height: 39px;
+	color: #333333;
+}
+.kuai .hang a:hover{
+	color: black;
+}
+.kuai .hang .ww{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top:14px;
+	right: 6px;
+	text-align: center;
+	line-height: 16px;
+	color: #000000;
+	font-size: 15px;
+}
+.kuai .hang .ww:hover{
+	transform: rotate(45deg);
+}
+.kuai .k{
+	border-bottom: 0px;
+}
+.kuai .zhong{
+	width: 100%;
+	height: 30px;
+	background: #f2f2f2;
+	position: relative;
+}
+.zhong .yx{
+	width: 15px;
+	height: 15px;
+	background: #AEAEAE;
+	position: absolute;
+	left: 0px;
+	top: 8px;
+	border-radius: 50%;
+}
+.zhong .rr{
+	width: 13px;
+	height: 13px;
+	background: #DE2910;
+	border-radius: 50%;
+	position: absolute;
+	top: 1px;
+	left: 1px;
+}
+.zhong  .chinass{
+	width: 25px;
+	height: 20px;
+	background: #F2F2F2;
+	position: absolute;
+	top: 5px;
+	left: 20px;
+}
+.zhong  .chinass .nk{
+	font-size: 9px;
+	color: #555555;
+	line-height: 20px;
+}
+.zhong  .china .nk:hover{
+	text-decoration: underline;
+}
+
+
+@media screen and (max-width: 1024px) {
+	footer .kuai{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0px 22px;
+	}
+	
+}
+@media screen and (max-width: 750px) {
+	.top{
+		display: none;
+	}
+	.bottom{
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
